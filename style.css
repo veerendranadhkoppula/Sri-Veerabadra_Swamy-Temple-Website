@@ -436,3 +436,7 @@ body
         padding: 50px; 
     }
 }
+.section-below {
+    margin: 0; /* Remove any unwanted margin */
+    padding: 0; /* Remove any unwanted padding */
+}

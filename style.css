@@ -56,17 +56,17 @@ body
     color:#0ef;
 }
 
-.home{
-    position:relative;
-    width:100%;
-    justify-content:space-between;
-    height:140vh;
-    background:url("veera1.jpg") no-repeat;
-    background-size:cover;
-    background-position:center;
-    display:flex;
-    align-items:center;
-    padding:150px;
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 140vh;
+    background: url("veera1.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 150px;
 }
 
 .home-content{
@@ -427,5 +427,12 @@ body
     100%{
         transform:translateY(0px);
         opacity:1;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        min-height: 80vh; 
+        padding: 50px; 
     }
 }
